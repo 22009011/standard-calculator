@@ -29,7 +29,75 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 ## PROGRAM :
-
+```
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+<title>My-Standard Calculator</title>
+<style type="text/css">
+.calc{
+width: 500px;
+height: 400px;
+background-color:forestgreen;
+margin-left:auto;
+margin-right:auto;
+}
+#result{
+background-color:gold;
+text-align:center;
+}
+</style>
+<script type="text/javascript">
+function calculate(args)
+{
+res = document.getElementById("result");
+expression = res.innerText;
+cmd = args.srcElement.innerText;
+if(cmd == "=")
+{
+expression = "" + eval(expression)
+}else if(cmd == "C")
+{
+expression = " "
+}
+else{
+expression = expression + cmd;
+}
+res.innerText = expression;
+// alert("CLICKED"+cmd)
+}
+var x,y,z;
+alert("WELCOME TO JAVASCRIPT PROGRAMMING");
+x = 200;
+y = 400;
+z=x+y;
+console.log("z="+z)
+</script>
+</head>
+<body>
+<div class="calc">
+<div class="calc_title"></div>
+<h1>A STANDARD CALCULATOR</h1>
+<div id="result">0</div>
+<button onclick="calculate(event);">1</button>
+<button onclick="calculate(event);">2</button>
+<button onclick="calculate(event);">3</button><br>
+<button onclick="calculate(event);">4</button>
+<button onclick="calculate(event);">5</button>
+<button onclick="calculate(event);">6</button><br>
+<button onclick="calculate(event);">7</button>
+<button onclick="calculate(event);">8</button>
+OUTPUT:
+Validator
+<button onclick="calculate(event);">9</button><br>
+<button onclick="calculate(event);">+</button>
+<button onclick="calculate(event);">-</button>
+<button onclick="calculate(event);">*</button><br>
+<button onclick="calculate(event);">=</button>
+<button onclick="calculate(event);">C</button>
+</body>
+</HTML>
+```
 ## OUTPUT:
 
 ## Result:
