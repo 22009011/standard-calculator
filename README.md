@@ -7,19 +7,20 @@ To design a web application for a standard calculator.
 ## DESIGN STEPS:
 
 ### Step 1:
-
+clone into standard calculator
 
 ### Step 2:
-
+Create a project inside standard calculator
 
 ### Step 3:
+craete an app inside the standard calculator
 
 
 ### Step 4:
-
+create an template folder inside the app
 
 ### Step 5:
-
+create the app inside the template folder
 ### Step 6:
 
 Validate the HTML and CSS code.
